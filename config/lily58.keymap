@@ -19,10 +19,10 @@
 
 		default_layer {
 			bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                       &kp N6   &kp N7   &kp N8     &kp N9   &kp N0    &kp EQUAL
+&kp LS(TAB)  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                       &kp N6   &kp N7   &kp N8     &kp N9   &kp N0    &kp EQUAL
 &kp TAB    &kp Q   &kp W   &kp F    &kp P    &kp G                        &kp J    &kp L    &kp U      &kp Y    &kp SEMI  &kp MINUS
 &kp LCTRL  &kp A   &kp R   &kp S    &kp T    &kp D                        &kp H    &kp N    &kp E      &kp I    &kp O     &kp APOS
-&kp LSHFT  &kp Z   &kp X   &kp C    &kp V    &kp B  &kp LBKT     &kp RBKT &kp K    &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp RET
+&kp LSHFT  &mt LC(LSHFT) Z   &kp X   &kp C    &kp V    &kp B  &kp LBKT     &kp RBKT &kp K    &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp RET
                &kp ESC &kp LGUI    &kp LALT  &kp SPACE             &mo 2 &kp BSPC &kp DEL &mo 1
 			>;
 		};
@@ -40,7 +40,7 @@
 		raise_layer {
 			bindings = <
 &kp TILDE  &kp EXCL  &kp AT    &kp HASH  &kp DOLLAR  &kp PRCNT                          &kp CARET  &kp AMPS      &kp STAR       &kp LPAR   &kp RPAR   &kp PLUS
-&kp CAPS   &trans    &trans    &kp RPAR  &kp PIPE    &kp BSLH                           &kp HOME   &kp LC(LEFT)  &kp LC(RIGHT)  &kp END    &kp PG_UP  &trans
+&kp GRAVE   &trans    &trans    &kp RPAR  &kp PIPE    &kp BSLH                           &kp HOME   &kp LC(LEFT)  &kp LC(RIGHT)  &kp END    &kp PG_UP  &trans
 &trans     &trans    &trans    &kp LPAR  &kp UNDER   &kp MINUS                          &kp LEFT   &kp DOWN      &kp UP         &kp RIGHT  &kp PG_DN  &trans
 &trans     &trans    &trans    &trans    &trans      &trans    &kp LBRC       &kp RBRC  &trans     &trans        &trans         &trans     &kp QMARK  &trans
                                &trans    &trans      &trans    &kp ESC          &trans  &trans     &trans        &trans
