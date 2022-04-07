@@ -19,8 +19,8 @@
 &kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                       &kp N6   &kp N7   &kp N8     &kp N9   &kp N0    &kp EQUAL
 &kp TAB    &kp Q   &kp W   &kp F    &kp P    &kp G                        &kp J    &kp L    &kp U      &kp Y    &kp SEMI  &kp MINUS
 &kp LCTRL  &kp A   &kp R   &kp S    &kp T    &kp D                        &kp H    &kp N    &kp E      &kp I    &kp O     &kp APOS
-&kp LSHFT  &mt LC(LSHFT) Z   &kp X   &kp C    &kp V    &kp B  &kp LBKT     &kp RBKT &kp K    &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp RET
-               &kp ESC &kp LGUI    &kp LALT  &kp SPACE             &mo 2 &kp BSPC &kp DEL &mo 1
+&kp LSHFT  &kp Z   &kp X   &kp C    &kp V    &kp B  &kp LBKT     &kp RBKT &kp K    &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp RET
+               &kp LC(LSHFT) &kp LGUI    &kp LALT  &kp SPACE             &mo 2 &kp BSPC &kp DEL &mo 1
 			>;
 		};
 
